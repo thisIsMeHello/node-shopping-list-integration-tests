@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: lQA36eDNA6zCMw38Boj+Q9CeePPnhMtZbtyFRwCxqQbQOblL6OuVSBTu3evfp6ZXcmxGhRvHD15+O9yQCBJjEkwBiQO/8cvFM9smooba493xWiUid+wo5eGHLhfTQe0O5ejC1ZDNdKXF8yN77WMgJvBpI3+TMBajt5h9tgVVBb3Sw7XHFg9Y3KKBbE3tXCm9EWeJSMtn/GNPSR1fl2/hMoQrwbUKeQPbXLVHetYyVuU6jXBiR3b7Z6c/h0mFiHmLlpgyO2CkOE6GeCF2P5HyatHvPh1aYsALouOCEdwUoB8dR4a2ZJCYcKr0ODzaM9A+nEMF8aqFj54bKilmlAAx5ZBEWfxxBdf7YCFQLypvsi8RIkGGhPj7BngXl4ZET1d3g2vKfhcTofYkYpIAu1TEuTScur8ZVh0Jj9f9geZ6mpYRn+GMXqBfFe/Vxhaod8woFO5qZlHpbw1mG4FoDLvCY+wZGkDvgdfrzwT/iLMbLa8YT29BufjsetYQ/6F58Hp0shwwtnmYk79HhUu0XG0PVmIrTUm+/93EYxPs6A9MS3c2ncWP2xEdghW+pfXVZd/WQ5hec/cZZqgPvQB3KfYAm6jRx+0OXxMQC9E+IvpneVZCDpD9vsOdEhdc89IkQKCsZWjLJbrK6aRpyDI6k79y19Zvn2DPDV35wBWKmJzWMKQ=
+  app: whispering-plateau-53902
+  on:
+    repo: thisIsMeHello/node-shopping-list-integration-tests
+    branch: tests-for-recipes
